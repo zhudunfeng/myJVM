@@ -18,7 +18,7 @@ public class ClassLoderDemo {
         System.out.println(classLoderDemo.getClass().getClassLoader());//AppClassLoder
         System.out.println(classLoderDemo.getClass().getClassLoader().getParent());//ExtClassLoder
         System.out.println(classLoderDemo.getClass().getClassLoader().getParent().getParent());//null(BootStrapClassLoder)
-
+        //双亲委派+沙箱安全机制
 
     }
 }
